@@ -1,4 +1,4 @@
-function CreateStructure() {
+function CalculatorStructure() {
   return (
     <section className="calculatorContain">
       <p className="displaySection">0</p>
@@ -27,4 +27,4 @@ function CreateStructure() {
   );
 }
 
-export default CreateStructure;
+export default CalculatorStructure;
