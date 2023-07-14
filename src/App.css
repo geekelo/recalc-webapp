@@ -1,39 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calculatorContain {
   display: flex;
+  width: 40%;
+  margin: 10% auto;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2px;
+  text-align: center;
+  box-shadow: -2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  font-family: 'Ysabeau Infant', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.buttons {
+  background-color: #f3f4ed;
+  width: 10.43rem;
+  padding: 1.5rem 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.displaySection {
+  width: 95%;
+  background-color: #536162;
+  text-align: right;
+  padding: 2rem 2rem;
+  padding-left: 0;
+  color: #f3f4ed;
+}
+
+.buttons:nth-child(4n),
+.buttons:last-child {
+  background-color: #c06014;
+  color: rgba(243, 244, 237, 0.8);
+}
+
+.zeroBtn {
+  width: 20.98rem;
 }
