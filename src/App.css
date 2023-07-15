@@ -7,12 +7,11 @@
 
 .calculatorContain {
   display: flex;
-  width: 40%;
+  width: 39.6%;
   margin: 10% auto;
   flex-direction: column;
   gap: 2px;
   text-align: center;
-  box-shadow: -2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   font-size: 2rem;
   font-family: 'Ysabeau Infant', sans-serif;
 }
@@ -26,9 +25,9 @@
 
 .buttons {
   background-color: #f3f4ed;
-  width: 10.43rem;
+  width: 10.4rem;
   padding: 1.5rem 0;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #53616250;
 }
 
 .displaySection {
@@ -47,5 +46,5 @@
 }
 
 .zeroBtn {
-  width: 20.98rem;
+  width: 20.95rem;
 }
