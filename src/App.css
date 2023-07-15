@@ -7,7 +7,7 @@
 
 .calculatorContain {
   display: flex;
-  width: 39.6%;
+  width: 40%;
   margin: 10% auto;
   flex-direction: column;
   gap: 2px;
@@ -25,7 +25,7 @@
 
 .buttons {
   background-color: #f3f4ed;
-  width: 10.4rem;
+  width: 24.7%;
   padding: 1.5rem 0;
   border: 1px solid #53616250;
 }
@@ -46,5 +46,5 @@
 }
 
 .zeroBtn {
-  width: 20.95rem;
+  width: 49.7%;
 }
