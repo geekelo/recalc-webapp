@@ -6,7 +6,7 @@
 }
 
 body {
- background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 .calculatorContain {
@@ -64,7 +64,7 @@ body {
   text-align: center;
   font-size: 2rem;
   background-color: #536162;
-  color:#f3f4ed;
+  color: #f3f4ed;
   border-radius: 5rem;
   padding: 2rem;
 }
