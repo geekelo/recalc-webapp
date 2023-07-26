@@ -35,7 +35,7 @@ li {
   font-size: 1.2rem;
   text-align: center;
   padding: 0 2rem;
-  box-shadow: 1px 1px 0px 3px #00000033;
+  box-shadow: 1px 1px 0 3px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   align-items: center;
   display: flex;
