@@ -9,6 +9,8 @@
 body {
   background-color: #f0f0f0;
   background-image: url('./library/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .overlay {
@@ -23,9 +25,8 @@ body {
 .calcFrag {
   display: flex;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1rem;
   background-color: #fffffff1;
-
 }
 
 h2 {
@@ -35,7 +36,7 @@ h2 {
 .calcText {
   flex: 30%;
   padding: 0 3rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .calculatorContain {
@@ -47,7 +48,7 @@ h2 {
   text-align: center;
   font-size: 2rem;
   font-family: 'Ysabeau Infant', sans-serif;
-  padding: 7rem;
+  padding: 2rem 7rem;
   border-radius: 5rem;
 }
 
@@ -69,7 +70,7 @@ h2 {
   width: 95%;
   background-color: #363636;
   text-align: right;
-  padding: 2rem 2rem;
+  padding: 2rem 1.6rem;
   padding-left: 0;
   color: #f3f4ed;
 }
@@ -88,7 +89,7 @@ h2 {
 .quoteConatiner {
   width: 50%;
   margin: auto;
-  margin-top: 12%;
+  margin-top: 10%;
   font-family: 'Ysabeau Infant', sans-serif;
   text-align: center;
   font-size: 2rem;

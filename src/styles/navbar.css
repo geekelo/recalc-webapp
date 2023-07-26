@@ -8,7 +8,7 @@
 nav {
   display: flex;
   flex-direction: row;
-  width: 97.98%;
+  width: 97.6%;
   background-color: #363636;
   padding: 1rem;
   color: #fff;
@@ -24,7 +24,7 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  flex: 10%;
+  flex: 20%;
 }
 
 li {
@@ -32,7 +32,7 @@ li {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   border-right: 1px solid #c06014;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 0 2rem;
   box-shadow: 1px 1px 0px 3px rgba(0,0,0,0.2);
