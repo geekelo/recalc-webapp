@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+.welcomeConstainer {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 8rem;
+  font-size: 1.5rem;
+  gap: 5px;
+  background-color: #ffdabb;
+  padding: 6rem;
+  border-radius: 5rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}

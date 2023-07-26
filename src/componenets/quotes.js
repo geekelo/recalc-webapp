@@ -26,8 +26,10 @@ function DisplayQuotes() {
 
   if (loading) {
     return (
-      <div className="quoteConatiner">
-        <p>Loading...</p>
+      <div className="overlay">
+        <div className="quoteConatiner">
+          <p>Loading...</p>
+        </div>
       </div>
     );
   }
@@ -41,16 +43,22 @@ function DisplayQuotes() {
   }
 
   return (
-    <div className="quoteConatiner">
-      <h1>&quot;</h1>
-      {
-      quotes.length > 0
-        ? (
-          <p>
-            {quotes[0].quote}
-          </p>
-        ) : <p>Loading...</p>
-    }
+    <div className="overlay">
+      <div className="quoteConatiner">
+        <h1>&quot;</h1>
+        {
+        quotes.length > 0
+          ? (
+            <p>
+              {quotes[0].quote}
+            </p>
+          ) : (
+            <div className="overlay">
+              <p>Loading...</p>
+            </div>
+          )
+      }
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
 * {
   margin: 0;
@@ -7,6 +8,35 @@
 
 body {
   background-color: #f0f0f0;
+  background-image: url('./library/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 6.5rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffffff1;
+}
+
+.calcFrag {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fffffff1;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.calcText {
+  flex: 30%;
+  padding: 0 3rem;
+  font-size: 1rem;
 }
 
 .calculatorContain {
@@ -18,8 +48,7 @@ body {
   text-align: center;
   font-size: 2rem;
   font-family: 'Ysabeau Infant', sans-serif;
-  background-color: rgba(192, 97, 20, 0.075);
-  padding: 7rem;
+  padding: 2rem 7rem;
   border-radius: 5rem;
 }
 
@@ -39,9 +68,9 @@ body {
 
 .displaySection {
   width: 95%;
-  background-color: #536162;
+  background-color: #363636;
   text-align: right;
-  padding: 2rem 2rem;
+  padding: 2rem 1.6rem;
   padding-left: 0;
   color: #f3f4ed;
 }
@@ -56,10 +85,11 @@ body {
   width: 49.7%;
 }
 
+/* Quotes styles */
 .quoteConatiner {
   width: 50%;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   font-family: 'Ysabeau Infant', sans-serif;
   text-align: center;
   font-size: 2rem;
