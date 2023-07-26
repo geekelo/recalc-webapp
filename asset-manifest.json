@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recalc-webapp/static/css/main.fca15ab0.css",
+    "main.js": "/recalc-webapp/static/js/main.25020f00.js",
+    "static/media/bg.jpg": "/recalc-webapp/static/media/bg.ccba8065195e6da4bb8f.jpg",
+    "static/media/recalc-logo.png": "/recalc-webapp/static/media/recalc-logo.88ec4635ff9b95917978.png",
+    "index.html": "/recalc-webapp/index.html",
+    "main.fca15ab0.css.map": "/recalc-webapp/static/css/main.fca15ab0.css.map",
+    "main.25020f00.js.map": "/recalc-webapp/static/js/main.25020f00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca15ab0.css",
+    "static/js/main.25020f00.js"
+  ]
+}
