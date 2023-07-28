@@ -1,8 +1,7 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import CalculatorStructure from '../componenets/calculator';
-import calculate from '../logic/calculate';
 
 describe('CalculatorStructure component', () => {
   test('should render with default state', () => {
@@ -41,4 +40,3 @@ describe('CalculatorStructure component', () => {
 
   // Add more test cases to cover other scenarios and edge cases
 });
-
