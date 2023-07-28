@@ -25,14 +25,14 @@ function CalculatorStructure() {
         </p>
       </div>
       <section className="calculatorContain">
-        <div className="displaySection">
+        <div className="displaySection" data-testid="display-section">
           {total}
           {operation}
           {next}
         </div>
         <main className="btnContainer">
-          <button type="button" className="buttons btnSet" onClick={setupEvent}>AC</button>
-          <button type="button" className="buttons btnSet" onClick={setupEvent}>+/-</button>
+          <button type="button" className="buttons btnSet" data-testid="btn-ac" onClick={setupEvent}>AC</button>
+          <button type="button" className="buttons btnSet" data-testid="btn-plus-minus" onClick={setupEvent}>+/-</button>
           <button type="button" className="buttons btnSet" onClick={setupEvent}>%</button>
           <button type="button" className="buttons btnSet" onClick={setupEvent}>÷</button>
           <button type="button" className="buttons btnSet" onClick={setupEvent}>7</button>
