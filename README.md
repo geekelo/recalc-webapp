@@ -53,6 +53,7 @@ After you're finished please remove all the comments and instructions.
     - [Run Tests ](#run-tests-)
     - [Deployment ](#deployment-)
   - [👥 Authors ](#-authors-)
+  - [👥 Contributor ](#-contributor-)
   - [🤝 Contributing ](#-contributing-)
   - [Future Features ](#future-features-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -199,7 +200,7 @@ You can deploy this project using the following procedure:
 - GitHub: [@geekelo](https://github.com/geekelo)
 - Twitter: [@Geekelo_xyz](https://twitter.com/Geekelo_xyz)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/eloghene-otiede)
-- [See Documentation of Author's inputs](./Documentation/Geekelo-input.md)
+<!-- - [See Documentation of Author's inputs](./Documentation/Geekelo-input.md) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
