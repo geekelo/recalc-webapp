@@ -20,7 +20,6 @@ exports[`test calculator components work correctly 1`] = `
     >
       <div
         class="displaySection"
-        data-testid="display-section"
       >
         0
       </div>
@@ -29,14 +28,12 @@ exports[`test calculator components work correctly 1`] = `
       >
         <button
           class="buttons btnSet"
-          data-testid="btn-ac"
           type="button"
         >
           AC
         </button>
         <button
           class="buttons btnSet"
-          data-testid="btn-plus-minus"
           type="button"
         >
           +/-
