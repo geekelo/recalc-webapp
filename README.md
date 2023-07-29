@@ -203,6 +203,18 @@ You can deploy this project using the following procedure:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Contributor -->
+
+## 👥 Contributor <a name="authors"></a>
+
+👤 **Robert Mbugua**
+
+- GitHub: [@Kanyorok](https://github.com/Kanyorok)
+- Twitter: [@CarlosMbugua](https://twitter.com/CarlosMbugua)
+- LinkedIn: [Robert Mbugua](https://www.linkedin.com/in/robert-mbugua-a8745093/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 You can offer Contributions, submit an [issue](../../issues/), and make a feature request.

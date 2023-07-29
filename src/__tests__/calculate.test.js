@@ -6,8 +6,8 @@ describe('tests calculate function', () => {
       {
         total: 0,
         next: null,
-        operation: null
-      }
+        operation: null,
+      },
     );
   });
 
@@ -16,8 +16,8 @@ describe('tests calculate function', () => {
       {
         total: '6',
         next: '20',
-        operation: '+'
-      }
+        operation: '+',
+      },
     );
   });
 
@@ -26,8 +26,8 @@ describe('tests calculate function', () => {
       {
         total: '8',
         next: null,
-        operation: null
-      }
+        operation: null,
+      },
     );
   });
 
@@ -36,8 +36,8 @@ describe('tests calculate function', () => {
       {
         total: '6',
         next: '2.',
-        operation: '+'
-      }
+        operation: '+',
+      },
     );
   });
 
@@ -46,8 +46,8 @@ describe('tests calculate function', () => {
       {
         total: '8',
         next: null,
-        operation: '-'
-      }
+        operation: '-',
+      },
     );
   });
 });
