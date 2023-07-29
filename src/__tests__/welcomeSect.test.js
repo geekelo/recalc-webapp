@@ -11,5 +11,5 @@ describe('snap shot for this component', () => {
       </BrowserRouter>,
     ).JSON;
     expect(tree).toMatchSnapshot();
-  })
+  });
 });
