@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test calculator components work correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="calcFrag overlay"
+  >
+    <div
+      class="calcText"
+    >
+      <h2>
+        Let's do Some Maths!
+      </h2>
+      <p>
+        Start optimizing your calculations and boost your productivity with Recalc Calculator. It's time to say hello to efficiency and bid farewell to mathematical challenges. Embrace the power of Recalc Calculator and unlock a world of accurate and effortless computations today! Ready to dive in? Simply start calculating and experience the magic of Recalc Calculator
+      </p>
+    </div>
+    <section
+      class="calculatorContain"
+    >
+      <div
+        class="displaySection"
+      >
+        0
+      </div>
+      <main
+        class="btnContainer"
+      >
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          x
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          -
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          +
+        </button>
+        <button
+          class="buttons btnSet zeroBtn"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="buttons btnSet"
+          type="button"
+        >
+          =
+        </button>
+      </main>
+    </section>
+  </div>
+</DocumentFragment>
+`;
