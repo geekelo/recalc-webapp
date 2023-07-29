@@ -8,9 +8,8 @@ describe('snap shot for this component', () => {
     const tree = renderer.create(
       <BrowserRouter>
         <WelcomeSection />
-      </BrowserRouter>
-    ).JSON
+      </BrowserRouter>,
+    ).JSON;
     expect(tree).toMatchSnapshot();
   })
-
-})
+});
